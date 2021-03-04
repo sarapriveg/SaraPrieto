@@ -1,0 +1,214 @@
+body {
+    background-color: #E6E6E6;
+    font-family:   Verdana, Arial,  Helvetica, sans-serif;
+    font-size: 76%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  a {
+    color: #4A4A4A;
+    background-color: transparent;
+    text-decoration: none;
+    margin: 0; 
+  }
+  a:hover {
+    color: #676767;
+    text-decoration: underline;
+  }  
+  .encuadre {  /* Marco que agrupa el total de la ventana */
+    background-color: #ffffff;
+    width: 840px; /* Para hacerla mas ancho solo tocar este valor */
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0px;
+  } 
+  .cuadroContenedor {
+    padding: 0em 5em 0em 5em;
+    text-align: center;
+    float : center;
+  }
+/* Estilos para la cabecera*/
+  .midCabecera {
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    width: 820px;
+    height:88px;
+    background:#fff no-repeat left top;
+  }
+  .midCabecera img{
+    float:left;
+  }
+  .midCabecera h1 {
+    color: #881126;
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 1.5em;
+    float:left;
+    margin: 2em 1em 1em 1em;
+}
+/* Caracteristicas del iframe */ 
+  #marcoContenido {
+    position:relative;
+    height:380px;
+    width:100%;
+}
+/* Estilos Para los formularios de Login y Cambio Contraseña */
+  #tituloOpcion { /* Marco con el usuario conectado */
+    margin: 1em 1em 2em 1em;
+    padding:0em 0em 0em 3em;
+    background:#FFFFFF url("../imagenes/iconoMenu02.png")  no-repeat left center ;
+    text-align: left;
+  }
+  #tituloOpcion h1 {
+    text-align: justify;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #336699;
+  }
+  #mensajes {
+    text-align: justify;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin: 0% 0% 0% 12px;
+    color: #555555;
+  }
+  .ocultar {
+    display: none ;
+  }
+  #titulocajaformulario  {
+    background-color: #336699;
+    width: 92%;
+    padding: 3px 10px 6px 12px;
+    margin: 5px auto 0px auto;
+    text-align: justify;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    border: 1px solid #336699;
+    font-weight: bold;
+  }
+
+  #cajaformulario  {
+    background-color: #F1F1F2;
+    width: 92%;
+    padding: 3px 10px 1px 12px;
+    margin: 0% auto 0% auto;
+    text-align: left;
+    border: 1px solid #DBDBDB; 
+  }
+  #cajaformulario02  {
+    background-color: #F1F1F2;
+    width: 92%;
+    padding: 1px 10px 1px 10px;
+    margin: 5px 0% 0% 0%;
+    text-align: left;
+    border: 1px solid #DBDBDB;
+  }
+ 
+#cajaformulario02 a {
+    font-size: 1.0em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 2px 20px 2px 20px;
+    margin: 10px 1px 10px 1px;
+    letter-spacing: 1pt;
+    text-decoration:none;
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #026699;
+    border: 2px solid #828177;
+    width: 15em;
+    height: 1em;
+    display:block;
+  }
+
+  #cajaformulario02 a:hover {
+    color:#FFFFFF;
+    text-decoration: none;
+  }
+  
+  fieldset.normales{
+    font-size: 1.0em;
+    background-color: #F1F1F2;
+    border: 1px solid #F1F3F5;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+  }
+  legend.normales{
+    font-size: 1.0em;
+    font-weight:bold;
+    color: #010000;
+    text-align: left;
+    background-color: #F1F1F2;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+/* estilo para los textos que son obligatorias cumplimentarles en los formularios */
+  .obligado{
+    color: #8B2C60;
+  }
+  .inputColor {
+    font-family:   Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #4a4a4a;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #A59F9F;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .botonformulario {
+    font-size: 1.0em;
+    color : #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #026699;
+    letter-spacing: 1pt;
+    padding: 1px 30px 2px 30px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+/* Estilo para el pie de pagina y sus elementos */
+  #footer {
+    color: #797979;
+    font-size: 90%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 1px 10px 5px;
+    clear: left;
+  }
+  #footer p {
+    padding-top: 0.5em;
+    margin-top: 0em; 
+  }
+  #footer a {
+    color: #797979;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #footer a:hover {
+    color: #8b2c60;
+    text-decoration: underline;
+  }
+  .lineafooter {
+    border-top: 1px solid #808080;
+    line-height: 0px;
+    width: 585px;
+    margin: auto;
+  }
+/* Estilos de los cuadros de mensajes, avisos ... (logout, mensajes, error, sinsesion)*/  
+  .mensaje {
+   
+    padding: 1.2em 0em 1.2em 0em;
+   
+  }
+  .mensajeAviso {
+    padding: 1.2em 0em 1.2em 0em;
+    color : darkred;
+  } 
